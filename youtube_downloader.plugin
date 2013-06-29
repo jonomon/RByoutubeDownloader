@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python
+Module=youtube_downloader
+IAge=2
+Name=Youtube Downloader
+Description=A plugin which extracts audio from youtube videos.
+Authors=Jonathan Chung <jono.chung@gmail.com>
+Copyright=Copyright © 2013 Jonathan Chung
+Website=https://github.com/jonomon/RByoutubeDownloader
