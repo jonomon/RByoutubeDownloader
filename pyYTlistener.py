@@ -72,16 +72,13 @@ class youtubePlaylistDL:
 def main(username, playlist_name,destination_folder):
     youtubePLDL = youtubePlaylistDL()
     songlist = youtubePLDL.getSonglistByPlaylist_Username("fatbackyarddog","chinese")
-    itertools.tee(songlist)
-    # for song in songs_found:
-    #         print 'Downloading', song[0]
-    #         subprocess.call(['youtube-dl','-o',destination_folder+ '%(title)s-%(id)s.%(ext)s','-x',song[1]])
+   
      
 if __name__ == '__main__':
         #Testing
-    username = 'fatbackyarddog'
-    playlist_name = 'chinese'
-    destination_folder = '/home/jonomon/devel/pyYTlistener/pyYTlistener/data/'
-    ## add command line inputs
+    username = ''
+    playlist_name = ''
+    destination_folder = ''
+    ## add command line inputs options
     
     main(username,playlist_name,destination_folder)
