@@ -71,7 +71,7 @@ class youtubePlaylistDL:
 
 def main(username, playlist_name,destination_folder):
     youtubePLDL = youtubePlaylistDL()
-    songlist = youtubePLDL.getSonglistByPlaylist_Username("fatbackyarddog","chinese")
+    songlist = youtubePLDL.getSonglistByPlaylist_Username(username,playlist_name)
    
      
 if __name__ == '__main__':
